@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  emanote:
+  banyan-gh-pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

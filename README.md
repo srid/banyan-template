@@ -11,10 +11,11 @@ nix run
 
 ## Deploy to GitHub Pages
 
-See `.github/workflows/publish.yml`
+See `.github/workflows/publish.yml` (and todo below)
 
 ## Todo
 
+- Set `<base>` href for github.io domain to work (use CNAME until then)
 - flake.nix: don't hardcode system
 - Use random port (hardcoded in `flake.nix)
     - Or not: if VSCode leaves banyan running as ghost-process.

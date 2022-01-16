@@ -9,6 +9,8 @@ nix run
 
 (Or <kbd>Ctrl+Shift+B</kbd> in Visual Studio Code)
 
+To update to latest version of banyan, run `nix flake lock --update-input banyan`.
+
 ## Deploy to GitHub Pages
 
 See `.github/workflows/publish.yml` (and todo below)
